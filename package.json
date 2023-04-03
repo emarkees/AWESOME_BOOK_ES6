@@ -16,5 +16,8 @@
     "url": "https://github.com/emarkees/AWESOME_BOOK_ES6/issues"
   },
   "homepage": "https://github.com/emarkees/AWESOME_BOOK_ES6#readme",
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "hint": "^7.1.8"
+  }
 }
