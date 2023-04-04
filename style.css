@@ -21,7 +21,7 @@ body {
   border: 2.5px solid #000;
   align-items: center;
   margin: 0.3rem 0.5rem;
-}/*
+}
 
 .ulnav {
   list-style: none;
@@ -194,7 +194,7 @@ body {
   color: blue;
 }
 
-/* ::::::::::::::::::::::::DESKTOP:::::::::::::::::::::::::
+/* ::::::::::::::::::::::::DESKTOP::::::::::::::::::::::::: */
 
 @media (min-width: 768px) {
   .navcontainer {
@@ -276,4 +276,4 @@ body {
     font-size: 1rem;
     margin: 2rem 37%;
   }
-} */
+} 
