@@ -16,7 +16,7 @@ const $newSection = document.querySelector('.newbooks');
 const $contactSection = document.querySelector('.contactinfo');
 const bookObj = new Books();
 
-// Access the section to display or not 
+// Access the section to display or not
 const Navigation = () => {
   $addButton.addEventListener('click', () => {
     if ($title.value !== '' && $author.value !== '') {
@@ -32,22 +32,21 @@ const Navigation = () => {
     }
   });
 
-  $listPage.addEventListener ('click', () => {
-    $booksSection.style.display = 'none';
-    $contactSection.style.display = 'none';
-    $newSection.style.display = 'block';
-  });
-  
-  $addPage.addEventListener('click', () => {
-    $booksSection.style.display = 'none';
-    $contactSection.style.display = 'none';
-    $newSection.style.display = 'block';
-  });
-  
-  $contactPage.addEventListener('click', () => {
+  $listPage.addEventListener('click', () => {
     $booksSection.style.display = 'none';
     $contactSection.style.display = 'none';
     $newSection.style.display = 'block';
   });
 
+  $addPage.addEventListener('click', () => {
+    $booksSection.style.display = 'none';
+    $contactSection.style.display = 'none';
+    $newSection.style.display = 'block';
+  });
+
+  $contactPage.addEventListener('click', () => {
+    $booksSection.style.display = 'none';
+    $contactSection.style.display = 'none';
+    $newSection.style.display = 'block';
+  });
 }; export default Navigation;
