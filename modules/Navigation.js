@@ -33,9 +33,9 @@ const Navigation = () => {
   });
 
   $listPage.addEventListener('click', () => {
-    $booksSection.style.display = 'none';
+    $booksSection.style.display = 'block';
     $contactSection.style.display = 'none';
-    $newSection.style.display = 'block';
+    $newSection.style.display = 'none';
   });
 
   $addPage.addEventListener('click', () => {
@@ -46,7 +46,7 @@ const Navigation = () => {
 
   $contactPage.addEventListener('click', () => {
     $booksSection.style.display = 'none';
-    $contactSection.style.display = 'none';
-    $newSection.style.display = 'block';
+    $contactSection.style.display = 'block';
+    $newSection.style.display = 'none';
   });
 }; export default Navigation;
