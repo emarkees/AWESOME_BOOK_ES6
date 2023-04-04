@@ -90,7 +90,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd [my-folder]
-  git clone git@github.com:CarlosIgreda/Awesome-Books-ES6.git
+  git https://github.com/emarkees/AWESOME_BOOK_ES6.git
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
