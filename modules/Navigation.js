@@ -17,7 +17,6 @@ const $contactSection = document.querySelector('.contactinfo');
 const bookObj = new Books();
 
 // Access the section to display or not 
-
 const Navigation = () => {
   $addButton.addEventListener('click', () => {
     if ($title.value !== '' && $author.value !== '') {
