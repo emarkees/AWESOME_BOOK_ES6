@@ -2,7 +2,7 @@ import { DateTime } from './luxon.js';
 
 const $date = document.querySelector('.datepage');
 
-function getNumberSuffix(day) {
+/*function getNumberSuffix(day) {
   switch (day) {
     case 1:
     case 21:
@@ -17,7 +17,24 @@ function getNumberSuffix(day) {
     default:
       return 'th';
   }
-}
+}*/
+
+const getNumberSuffix = (day) => {
+  switch (day) {
+  case 1:
+  case 21:
+  case 31:
+  return 'st';
+  case 2:
+  case 22:
+  return 'nd';
+  case 3:
+  case 23:
+  return 'rd';
+  default:
+  return 'th';
+  }
+};
 
 const updateDate = () => {
   const now = DateTime.now().setLocale('en-US');
